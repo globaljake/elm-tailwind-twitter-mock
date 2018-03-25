@@ -1,14 +1,3 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
-        <title>Twittler</title>
-    </head>
-    <body class="font-sans bg-grey-lighter">
-        <div class="hidden">
 <svg xmlns="http://www.w3.org/2000/svg">
 
     <symbol id="i-twitter" viewBox="0 0 1000 1000">
@@ -32,15 +21,3 @@
     </symbol>
 
 </svg>
-        </div>
-        <noscript>
-            You need to enable JavaScript to run this app.
-        </noscript>
-        <div id="root"></div>
-        <script type="text/javascript" src="./main.js" charset="utf-8"></script>
-        <script type="text/javascript">
-            const root = document.getElementById("root");
-            Elm.Main.embed(root);
-        </script>
-    </body>
-</html>

@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "start": "elm-live src/Main.elm --output=dist/main.js --dir=dist --port=3000 --debug --pushstate",
-    "build": "elm-make src/Main.elm --output=dist/main.js"
+    "build:elm": "elm-make src/Main.elm --output=dist/main.js",
+    "build:svg": "sed -e \"/%SVG_SYMBOLS%/r symbols.svg\" -e \"/%SVG_SYMBOLS%/d\" src/index.html > dist/index.html",
+    "build": "yarn build:svg & yarn build:elm"
   }
 }
