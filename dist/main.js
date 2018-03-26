@@ -12728,7 +12728,7 @@ var _user$project$Main$view = function (model) {
 																		_elm_lang$svg$Svg$use,
 																		{
 																			ctor: '::',
-																			_0: _elm_lang$svg$Svg_Attributes$xlinkHref('#i-home'),
+																			_0: _elm_lang$svg$Svg_Attributes$xlinkHref('icons.svg#home'),
 																			_1: {ctor: '[]'}
 																		},
 																		{ctor: '[]'}),
@@ -12790,7 +12790,7 @@ var _user$project$Main$view = function (model) {
 																			_elm_lang$svg$Svg$use,
 																			{
 																				ctor: '::',
-																				_0: _elm_lang$svg$Svg_Attributes$xlinkHref('#i-flash'),
+																				_0: _elm_lang$svg$Svg_Attributes$xlinkHref('icons.svg#flash'),
 																				_1: {ctor: '[]'}
 																			},
 																			{ctor: '[]'}),
@@ -12852,7 +12852,7 @@ var _user$project$Main$view = function (model) {
 																				_elm_lang$svg$Svg$use,
 																				{
 																					ctor: '::',
-																					_0: _elm_lang$svg$Svg_Attributes$xlinkHref('#i-bell'),
+																					_0: _elm_lang$svg$Svg_Attributes$xlinkHref('icons.svg#bell'),
 																					_1: {ctor: '[]'}
 																				},
 																				{ctor: '[]'}),
@@ -12914,7 +12914,7 @@ var _user$project$Main$view = function (model) {
 																					_elm_lang$svg$Svg$use,
 																					{
 																						ctor: '::',
-																						_0: _elm_lang$svg$Svg_Attributes$xlinkHref('#i-mail'),
+																						_0: _elm_lang$svg$Svg_Attributes$xlinkHref('icons.svg#mail'),
 																						_1: {ctor: '[]'}
 																					},
 																					{ctor: '[]'}),
@@ -12968,7 +12968,7 @@ var _user$project$Main$view = function (model) {
 															_elm_lang$svg$Svg$use,
 															{
 																ctor: '::',
-																_0: _elm_lang$svg$Svg_Attributes$xlinkHref('#i-twitter'),
+																_0: _elm_lang$svg$Svg_Attributes$xlinkHref('icons.svg#twitter'),
 																_1: {ctor: '[]'}
 															},
 															{ctor: '[]'}),
